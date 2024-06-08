@@ -17,15 +17,13 @@ function App() {
             <Heading as="h1">hello world</Heading>
             <div>
               <Heading as="h2">hello world</Heading>
-              <Button
-                variation="danger"
-                size="medium"
-                onClick={() => alert("Check in")}
-              >
+              <Button variations="danger" size="medium">
                 check In
               </Button>
 
-              <Button>check out</Button>
+              <Button variations="secondary" size="medium">
+                check out
+              </Button>
             </div>
           </Row>
           <Row type="vertical">
