@@ -54,7 +54,7 @@ function MainNav() {
       <NavList>
         <NavList>
           <li>
-            <StyledNavLink to="">
+            <StyledNavLink to="/dashboard">
               <span>
                 <BiHomeAlt />
               </span>
@@ -62,7 +62,7 @@ function MainNav() {
             </StyledNavLink>
           </li>
           <li>
-            <StyledNavLink to="">
+            <StyledNavLink to="/bookings">
               <span>
                 <HiOutlineCalendarDays />
               </span>
@@ -71,7 +71,7 @@ function MainNav() {
           </li>
 
           <li>
-            <StyledNavLink to="">
+            <StyledNavLink to="/cabins">
               <span>
                 <HiHomeModern />
               </span>
@@ -80,7 +80,7 @@ function MainNav() {
           </li>
 
           <li>
-            <StyledNavLink to="">
+            <StyledNavLink to="/users">
               <span>
                 <HiUsers />
               </span>
@@ -89,7 +89,7 @@ function MainNav() {
           </li>
 
           <li>
-            <StyledNavLink to="">
+            <StyledNavLink to="/settings">
               <span>
                 <IoSettingsOutline />
               </span>
